@@ -1,0 +1,79 @@
+.bakgrund{
+    background-color: pink;
+}
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 15vh§ 70vh 15vh;
+    margin:5px
+}
+.img{
+    width: auto;
+    border-style: groove;
+    border-radius: 20px;
+    text-align: center;
+}
+.header{
+    padding: 10px;
+    margin: 5px;
+    border: 2px black;
+    border-radius: 20px;
+    border-style: groove;
+    text-align: center;
+    width: auto;
+    font-size: large;
+}
+.container2{
+    display: grid;
+    align-items: center;
+    align-items: stretch;
+    grid-template-columns: 1fr 5fr ;
+    height:auto;
+}
+.article{
+    border: 2px black;
+    border-style: groove;
+    border-radius: 20px;
+    margin: 5px;
+    height:auto;
+    flex: 1;
+}
+.nav{
+    border: 2px black;
+    border-style: groove;
+    border-radius: 20px;
+    height:fit-content;
+}
+.main{
+    border: 2px black;
+    margin: 5px;
+    border-style: groove;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    
+}
+h3{
+    text-align: center;
+}
+.container3{
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    display:grid;
+    margin:5px;
+    
+}
+.aside{
+    border-style: groove;
+    border-width: 0px;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border: 2px black;
+    border-radius: 20px;
+    border-style: groove;
+    width: auto;
+}
